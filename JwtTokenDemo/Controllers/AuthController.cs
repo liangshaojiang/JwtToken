@@ -23,7 +23,7 @@ namespace JwtTokenDemo.Controllers
 
         public AuthController(UserManager<User> _userManager)
         {
-            this.userManager = _userManager;
+            this.userManager = _userManager;//添加注释
         }
 
         [HttpPost]
